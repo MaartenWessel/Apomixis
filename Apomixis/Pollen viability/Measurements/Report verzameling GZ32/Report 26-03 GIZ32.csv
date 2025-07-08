@@ -1,0 +1,33 @@
+﻿AmphaSoft Measurement Report
+SW Version: 2.1.6.0
+Workspace: C:/_Iris_Amphasys/Maarten/Report verzameling
+Date/Time: vrijdag 04-apr-2025 14:54
+
+Settings
+Id;Sample Name;Buffer Id;Chip Id;Freq 1 [0.1-30MHz];Freq 2 [0.1-30MHz];Stop Cond Cells [0-10M];Stop Cond min [0-99];Stop Cond sec [0-59];Trig Level [0.0001-20V];Note;Done;Report;
+S_22;tdm C2P3;AF6;D00001;2;18;10000;1;0;0.05;;1;1;
+S_23;tdm C2P3;AF6;D00001;2;18;10000;1;0;0.05;;1;1;
+S_24;tdm C2P3;AF6;D00001;2;18;10000;1;0;0.05;;1;1;
+S_25;tdm C2P8;AF6;D00001;2;18;10000;1;0;0.05;;1;1;
+S_26;tdm C2P8;AF6;D00001;2;18;10000;1;0;0.05;;1;1;
+S_27;tdm C2P8;AF6;D00001;2;18;10000;1;0;0.05;;1;1;
+S_999;1;AF6;D01057;2;18;10000;1;0;0.05;A_1;0;1;
+
+Results
+Id;Sample Name;Date/Time;Duration[mm:ss];Concentration[cells/ml];MeanFlow[ul/min];MeasVol[ul];Accepted;Rejected[%];
+S_22;tdm C2P3;26-mrt-2025 17:03:46;01:01;36075;249.1;256.5;9255; 3.6;
+S_23;tdm C2P3;26-mrt-2025 17:05:58;00:41;78143;195.0;136.4;10660; 3.8;
+S_24;tdm C2P3;26-mrt-2025 17:07:51;00:33;128487;150.9;85.4;10977; 3.7;
+S_25;tdm C2P8;26-mrt-2025 17:10:38;01:01;32399;294.3;306.5;9931; 3.3;
+S_26;tdm C2P8;26-mrt-2025 17:13:42;01:00;17852;241.3;245.4;4381; 3.1;
+S_27;tdm C2P8;26-mrt-2025 17:16:14;01:00;22182;246.7;251.2;5573; 2.7;
+
+Gating Statistics
+Cross Gating Freq 2
+Id;Sample Name;UL-Count;UL[%];UL[cells/ml];UR-Count;UR[%];UR[cells/ml];LR-Count;LR[%];LR[cells/ml];LL-Count;LL[%];LL[cells/ml];
+S_22;tdm C2P3;4650;50.24;18125;2449;26.46;9546;103;1.11;401;2053;22.19;8002;
+S_23;tdm C2P3;5698;53.45;41769;237;2.22;1737;82;0.77;601;4643;43.56;34035;
+S_24;tdm C2P3;4606;41.96;53914;191;1.74;2235;129;1.18;1509;6051;55.12;70828;
+S_25;tdm C2P8;5781;58.21;18860;312;3.14;1017;134;1.35;437;3704;37.30;12084;
+S_26;tdm C2P8;2809;64.12;11446;130;2.97;529;38;0.87;154;1404;32.04;5721;
+S_27;tdm C2P8;3424;61.44;13628;171;3.07;680;43;0.77;171;1935;34.72;7701;

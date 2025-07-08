@@ -1,0 +1,24 @@
+AmphaSoft Measurement Report
+SW Version: 2.1.6.0
+Workspace: C:/_Iris_Amphasys/Maarten/Report verzameling
+Date/Time: vrijdag 16-mei-2025 13:58
+
+Settings
+Id;Sample Name;Buffer Id;Chip Id;Freq 1 [0.1-30MHz];Freq 2 [0.1-30MHz];Stop Cond Cells [0-10M];Stop Cond min [0-99];Stop Cond sec [0-59];Trig Level [0.0001-20V];Note;Done;Report;
+S_1;C7P1;AF6;D01057;2;18;10000;1;0;0.05;A_1;1;1;
+S_2;C7P1;AF6;D01057;2;18;10000;1;0;0.05;;1;1;
+S_3;C7P1;AF6;D01057;2;18;10000;1;0;0.05;;1;1;
+S_999;1;AF6;D01057;2;18;10000;1;0;0.05;A_1;0;1;
+
+Results
+Id;Sample Name;Date/Time;Duration[mm:ss];Concentration[cells/ml];MeanFlow[ul/min];MeasVol[ul];Accepted;Rejected[%];
+S_1;C7P1;16-mei-2025 11:37:24;00:48;57713;222.3;183.8;10605; 2.4;
+S_2;C7P1;16-mei-2025 11:39:21;00:16;258902;168.5;47.0;12169; 2.6;
+S_3;C7P1;16-mei-2025 11:41:30;00:17;254020;153.2;45.9;11657; 2.6;
+
+Gating Statistics
+Cross Gating Freq 2
+Id;Sample Name;UL-Count;UL[%];UL[cells/ml];UR-Count;UR[%];UR[cells/ml];LR-Count;LR[%];LR[cells/ml];LL-Count;LL[%];LL[cells/ml];
+S_1;C7P1;692;6.53;3765;9673;91.21;52641;15;0.14;81;225;2.12;1224;
+S_2;C7P1;1028;8.45;21871;10944;89.93;232840;41;0.34;872;156;1.28;3318;
+S_3;C7P1;461;3.95;10045;11024;94.57;240226;37;0.32;806;135;1.16;2941;

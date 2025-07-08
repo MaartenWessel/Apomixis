@@ -1,0 +1,27 @@
+AmphaSoft Measurement Report
+SW Version: 2.1.6.0
+Workspace: C:/_Iris_Amphasys/Maarten/11-04-TDMGZ32
+Date/Time: donderdag 01-mei-2025 16:12
+
+Settings
+Id;Sample Name;Buffer Id;Chip Id;Freq 1 [0.1-30MHz];Freq 2 [0.1-30MHz];Stop Cond Cells [0-10M];Stop Cond min [0-99];Stop Cond sec [0-59];Trig Level [0.0001-20V];Note;Done;Report;
+S_1;C7P2-GIZ32;AF6;D00851;2;18;10000;1;0;0.05;A_1;1;1;
+S_2;C7P2-GIZ32;AF6;D00851;2;18;10000;1;0;0.05;;1;1;
+S_3;C6P5-GIZ32;AF6;D00851;2;18;10000;1;0;0.05;;1;1;
+S_4;C6P5-GIZ32;AF6;D00851;2;18;10000;1;0;0.05;;1;1;
+S_999;1;AF6;D01057;2;18;10000;1;0;0.05;A_1;0;1;
+
+Results
+Id;Sample Name;Date/Time;Duration[mm:ss];Concentration[cells/ml];MeanFlow[ul/min];MeasVol[ul];Accepted;Rejected[%];
+S_1;C7P2-GIZ32;11-apr-2025 16:12:24;00:20;0;-1018.3;-345.2;11158; 2.1;
+S_2;C7P2-GIZ32;11-apr-2025 16:14:41;00:20;0;-960.9;-325.7;11513; 1.9;
+S_3;C6P5-GIZ32;11-apr-2025 16:21:03;00:23;0;-890.9;-355.5;11131; 1.8;
+S_4;C6P5-GIZ32;11-apr-2025 16:23:20;01:00;16650;289.7;298.2;4966; 1.1;
+
+Gating Statistics
+Cross Gating Freq 2
+Id;Sample Name;UL-Count;UL[%];UL[cells/ml];UR-Count;UR[%];UR[cells/ml];LR-Count;LR[%];LR[cells/ml];LL-Count;LL[%];LL[cells/ml];
+S_1;C7P2-GIZ32;3500;31.37;0;7508;67.29;0;20;0.18;0;130;1.16;0;
+S_2;C7P2-GIZ32;4646;40.35;0;6726;58.42;0;8;0.07;0;133;1.16;0;
+S_3;C6P5-GIZ32;6633;59.59;0;4222;37.93;0;39;0.35;0;237;2.13;0;
+S_4;C6P5-GIZ32;439;8.84;1471;4414;88.88;14799;6;0.12;20;107;2.16;358;
